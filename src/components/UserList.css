@@ -1,0 +1,39 @@
+.fullList{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:20px auto;
+    background-color: rgba(250, 201, 110, 0.377);
+    margin: 0px;
+}
+.List{
+    width:340px;
+    height: 350px;
+    border:1px solid rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+    margin:20px 30px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 20px 20px rgb(156, 113, 70), 0px 0px 50px rgba(0, 0, 0, 0.2) !important;
+}
+.profilpicture{
+width:300px;
+height: 200px;
+margin:20px auto;
+padding:10px;
+}
+.userdetails{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    margin:20px;
+    cursor: pointer;
+    height: 30px;
+}
+.name{
+    color:black;
+    font-size: large;
+    font-family: sans-serif;
+}

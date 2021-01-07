@@ -1,0 +1,39 @@
+.details{
+    display: flex;
+    flex-direction: column;
+    }
+    .profil{
+        display: flex;
+        justify-content: space-around;
+        border:1px solid rgba(68, 67, 67, 0.397);
+        border-radius: 10px;
+        width:900px;
+        align-items: center;
+        margin:10px auto;
+        box-shadow: 0 20px 20px rgb(156, 113, 70), 0px 0px 50px rgba(0, 0, 0, 0.2) !important;
+    
+    }
+    .profilpicture{
+    width:200px;
+    height:200px;
+    margin:0px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .Label{
+        font-size: large;
+        font-weight: bold;
+    }
+    .persondetails{
+        color:blue;
+    }
+    .Addressdetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .groupe{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
